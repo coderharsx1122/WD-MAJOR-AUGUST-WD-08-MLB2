@@ -158,7 +158,7 @@ const showTodayweather = (data) =>{
       <!-- day1 -->
       <div class="week" id="day1">
          <div class="day_name" id="day">${weekdays[day]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png"  alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[0].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[0].main.temp_max}&#8451</h3>
@@ -169,7 +169,7 @@ const showTodayweather = (data) =>{
       <!-- day2 -->
       <div class="week" id="day2">
          <div class="day_name">${weekdays[day +1]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[1].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[1].weather[0].icon}@2x.png"  alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[1].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[1].main.temp_max}&#8451</h3>
@@ -180,7 +180,7 @@ const showTodayweather = (data) =>{
       <!-- day3 -->
       <div class="week" id="day3">
          <div class="day_name">${weekdays[day + 2]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[2].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[2].weather[0].icon}@2x.png"  alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[2].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[2].main.temp_max}&#8451</h3>
@@ -191,7 +191,7 @@ const showTodayweather = (data) =>{
       <!-- day4 -->
       <div class="week" id="day4">
          <div class="day_name">${weekdays[day + 3]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[3].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[3].weather[0].icon}@2x.png"  alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[3].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[3].main.temp_max}&#8451</h3>
@@ -202,7 +202,7 @@ const showTodayweather = (data) =>{
       <!-- day5 -->
       <div class="week" id="day5">
          <div class="day_name">${weekdays[day + 4]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[4].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[4].weather[0].icon}@2x.png"  alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[4].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[4].main.temp_max}&#8451</h3>
@@ -213,7 +213,7 @@ const showTodayweather = (data) =>{
       <!-- day6 -->
       <div class="week" id="day6">
          <div class="day_name">${weekdays[day + 5]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[5].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[5].weather[0].icon}@2x.png"  alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[5].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[5].main.temp_max}&#8451</h3>
@@ -221,16 +221,15 @@ const showTodayweather = (data) =>{
          </div>
        
       </div>
-      <!-- day7 --0
+      <!-- day7 -->
       <div class="week" id="day7">
          <div class="day_name">${weekdays[day + 6]}</div>
-         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[6].weather[0].icon}@2x.png" height="40px" alt=""></div>
+         <div class="image"><img src=" http://openweathermap.org/img/wn/${data.list[6].weather[0].icon}@2x.png" alt=""></div>
          <div class="text">
             <h3 id="tempreture">MIN: ${data.list[6].main.temp_min}&#8451</h3>
             <h3 id="tempreture">MAX: ${data.list[6].main.temp_max}&#8451</h3>
            
-         </div>
-        
+         </div> 
       </div>
    </div>
   
