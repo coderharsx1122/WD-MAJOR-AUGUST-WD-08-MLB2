@@ -119,8 +119,6 @@ if(day==6){
 
 
 
-var long
-var lat
 // funciton to get current day data
 const getTodayweather = async(city) =>{
     const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&APPID=${API_KEY}&units=metric`
